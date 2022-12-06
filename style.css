@@ -72,6 +72,7 @@
 
 .projects_info{
   display: inline-block;
+  margin-top: 70px
 }
 
     .completed_projects{
@@ -140,21 +141,12 @@
   .project_options_item{
     margin-right: 35px;
     margin-bottom: 34px;
+    padding-bottom: 35px
 }
 
-    /* .div_project_options{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50%;
-        position: relative;
-        left: -490px;
-        top: 216px;
-        width: 442px;
-    } */
-
-
-
-
+.project_options{
+  font-size: 18px;
+}
 
     .slider {
       position: relative;
@@ -211,12 +203,10 @@
       position: absolute;
       left: 0;
       top: 0;
-      /* opacity: 0; */
       transition: opacity 800ms ease;
       display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
-        /* position: relative; */
         width: 442px;
     }
     
@@ -230,7 +220,7 @@
       height: max-content;
       color: rgba(255, 255, 255, 0.6);
       align-content: flex-end;
-      bottom: -250px;
+      bottom: -260px;
       justify-content: flex-start;
     }
     
